@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="apply_box">
+            <h1>Job Apllication
+                <span class="title">(web.in)</span>
+            </h1>
+            <form action="">
+                <div class="form_format">
+                    <!-- First name -->
+                    <div class="form_look">
+                        <label for="firstname">First Name</label>
+                        <input type="text" id="firstname" name="firstname" placeholder="John" required>
+                    </div>
+                    <!-- last name -->
+                    <div class="form_look">
+                        <label for="lastname">Last Name</label>
+                        <input type="text" id="lastname" name="lastname" placeholder="Dae">
+                    </div>
+                    <!-- email id -->
+                    <div class="form_look">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="johndae@gmail.com">
+                    </div>
+                    <!-- phone number -->
+                    <div class="form_look">
+                        <label for="phonenumber">Phone Number</label>
+                        <input type="tel" id="phonenumber" name="phonenumber" placeholder="+91 9876543210">
+                    </div>
+                    <!--education qualification  -->
+                    <div class="form_look">
+                        <label for="education qualification">Education Qualification</label>
+                        <select name="education qualification" id="education qualification">
+                            <option value="Select Qualification">Select Qualification</option>
+                            <option value="BCA">BCA</option>
+                            <option value="MCA">MCA</option>
+                            <option value="Diploma-in-IT">Diploma in IT</option>
+                            <option value="B.Tech-CSE">B.Tech CSE</option>
+                            <option value="M.Tech-in-CS/IT">M.Tech in CS/IT</option>
+                        </select>
+                    </div>
+                    <!-- Marks -->
+                    <div class="form_look">
+                        <label for="Marks">Marks</label>
+                        <input type="number" id="Marks" name="Marks" placeholder=" Enter In Percentage">
+                    </div>
+                    <!-- passing year -->
+                    <div class="form_look">
+                        <label for="passing_year">Passout Year</label>
+                        <select name="passing_year" id="passing_year">
+                            <option value="">Select Passout Year</option>
+                            <option value="2019">2019</option>
+                            <option value="2020">2020</option>
+                            <option value="2021">2021</option>
+                            <option value="2022">2022</option>
+                            <option value="2023">2023</option>
+                            <option value="2024">2024</option>
+                            <option value="2025">2025</option>
+                            <option value="2026">2026</option>
+                        </select>
+                    </div>
+                    <!--job role -->
+                    <div class="form_look">
+                        <label for="job_role">Job Role</label>
+                        <select name="job_role" id="job_role">
+                            <option value="">Select Job Role</option>
+                            <option value="Frontend">Frontend</option>
+                            <option value="Beckend">Beckend</option>
+                            <option value="MERN-Stack">MERN-Stack</option>
+                            <option value="MARN-Stack">MARN-Stack</option>
+                        </select>
+                    </div>
+                    <!--Select in India  -->
+                    <div class="form_look">
+                        <label for="state">Select in India</label>
+                        <select name="state" id="state">
+                            <option value="Select-State">Select State</option>
+                            <option value="">Select a state/UT</option>
+                            <option value="andaman-nicobar">Andaman and Nicobar Islands</option>
+                            <option value="andhra-pradesh">Andhra Pradesh</option>
+                            <option value="arunachal-pradesh">Arunachal Pradesh</option>
+                            <option value="assam">Assam</option>
+                            <option value="bihar">Bihar</option>
+                            <option value="chandigarh">Chandigarh</option>
+                            <option value="chhattisgarh">Chhattisgarh</option>
+                            <option value="dadra-nagar-haveli">Dadra and Nagar Haveli and Daman and Diu</option>
+                            <option value="daman-diu">Daman and Diu</option>
+                            <option value="delhi">Delhi</option>
+                            <option value="goa">Goa</option>
+                            <option value="gujarat">Gujarat</option>
+                            <option value="haryana">Haryana</option>
+                            <option value="himachal-pradesh">Himachal Pradesh</option>
+                            <option value="jammu-kashmir">Jammu and Kashmir</option>
+                            <option value="jharkhand">Jharkhand</option>
+                            <option value="karnataka">Karnataka</option>
+                            <option value="kerala">Kerala</option>
+                            <option value="ladhak">Ladakh</option>
+                            <option value="lakshadweep">Lakshadweep</option>
+                            <option value="ladakh">Ladakh</option>
+                            <option value="maharashtra">Maharashtra</option>
+                            <option value="manipur">Manipur</option>
+                            <option value="meghalaya">Meghalaya</option>
+                            <option value="mizoram">Mizoram</option>
+                            <option value="nagaland">Nagaland</option>
+                            <option value="odisha">Odisha</option>
+                            <option value="puducherry">Puducherry</option>
+                            <option value="punjab">Punjab</option>
+                            <option value="rajasthan">Rajasthan</option>
+                            <option value="sikkim">Sikkim</option>
+                            <option value="tamil-nadu">Tamil Nadu</option>
+                            <option value="telangana">Telangana</option>
+                            <option value="tripura">Tripura</option>
+                            <option value="uttar-pradesh">Uttar Pradesh</option>
+                            <option value="uttarakhand">Uttarakhand</option>
+                            <option value="west-bengal">West Bengal</option>
+                        </select>
+                    </div>
+                    <!-- Pincode -->
+                    <div class="form_look">
+                        <label for="pincode">Pincode</label>
+                        <input type="number" name="pincode" id="pincode" placeholder="010101" required autofocus>
+                    </div>
+                    <!-- Date -->
+                    <div class="form_look">
+                        <label for="date">Date</label>
+                        <input type="date" id="date" name="date" value="2000-01-01" required autofocus>
+                    </div>
+                    <!--Upload Resume  -->
+                    <div class="form_look">
+                        <label for="document">Upload Resume</label>
+                        <input type="file" name="document" id="document" accept=".pdf, .doc, .docx, .jpg, .png"
+                            autofocus required>
+                    </div>
+                    <!-- about -->
+                    <div class="about_form_look">
+                        <label for="about">About</label>
+                        <textarea name="about" id="about" rows="5" cols="50"
+                            placeholder="Tell us about yourself... "></textarea>
+                    </div>
+                </div>
+                <!-- Apply now button -->
+                <div class="footer_button">
+                    <button type="button">Apply Now</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
